@@ -102,7 +102,7 @@ Based on the math above, the t-statistic for `Education` is -10.
 
 Interpret the results for the `Education` variable, i.e. BRIEFLY discuss the substantive meaning of the results (1 sentence), substantive significance (no more than 2 sentences), and statistical significance (1 sentence). (5 points)
 
-The substantive meaning of the results show a negative coefficient for the `Education` variable, we can conclude that with each year of education there is a decrease in 2 points in the feeling thermometer for George W. Bush. The substantive significance suggests individuals with higher levels of education have lower feelings towards George W. Bush, showing a relationship between education and attitudes towards George W. Bush. Finally, the statistical significance of the relationship is seen with the p-value of 0. This means we can conclude there is a strong relationship between years of education and feelings towards George W. Bush.
+The substantive meaning of the results show a negative coefficient for the `Education` variable, we can conclude that with each year of education there is a decrease in 2 points in the feeling thermometer for George W. Bush on average holding all else constant. The substantive significance suggests individuals with higher levels of education have lower feelings towards George W. Bush, showing a relationship between education and attitudes towards George W. Bush. Finally, the statistical significance of the relationship is seen with the p-value of 0. This means we can conclude there is a statistically significant relationship between years of education and feelings towards George W. Bush.
 
 ### Part C
 
