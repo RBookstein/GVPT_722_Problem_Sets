@@ -28,6 +28,10 @@ Using the table of survey results below answer questions 1a, 1b, 1c, and 1d. Ple
 
 What is the probability of voting for the incumbent? (1 point)
 
+::: callout-note
+1/1
+:::
+
 550/1165
 
 Based on the math above, the probability of voting for the incumbent is 0.472103 or 47.2103 percent.
@@ -35,6 +39,10 @@ Based on the math above, the probability of voting for the incumbent is 0.472103
 ### Part B
 
 What is the probability of being 18-29 or voting for the incumbent? Write the general (i.e. using symbols) formula you used to obtain your answer and show all of your work. (2 points)
+
+::: callout-note
+2/2
+:::
 
 P(A / B) = P(A) + P(B) - P(A and B)
 
@@ -48,6 +56,10 @@ Based on the math above, the probability of being 18-29 or voting for the incumb
 
 In terms of the substantive results (ignore statistical significance), does the evidence support your hypothesis? Explain, using details, how you know (no more than 2 sentences). (5 points)
 
+::: callout-note
+5/5
+:::
+
 18-29: 250/460 = 0.5434783 30-65: 150/395 = 0.3797468 65 and older: 150/310 = 0.483871
 
 Based on the table above, the data does not support my hypothesis. This is because the probability for voting for the incumbent is higher for those aged 65 and older (48.38 percent) compared to those aged 30 to 65 (37.97 percent).
@@ -56,17 +68,29 @@ Based on the table above, the data does not support my hypothesis. This is becau
 
 Imagine that the values in the **Total** column for each age group in *Table 1* remained the same, but the percentage voting for the incumbent in each age group was 51% (i.e. 51% of each age group voted for the incumbent). Now imagine that you were going to construct 90% confidence intervals, using the z table, for the percentage voting for the incumbent for each age group (don't actually do this). List the age groups in order starting with the one that would have the widest confidence interval to the one that would have the narrowest confidence interval, noting any ties. (3 points)
 
+::: callout-note
+3/3
+:::
+
 The order of the age groups starting with the widest confidence interval to narrowest confidence interval is older than 65 (310), 30 to 65 (395) 18 to 29 (460). This order is because the confidence intervals are wider when the sample size is smaller.
 
 ## Question 2
 
 Provide a political science example of a nominal variable. (1 point)
 
+::: callout-note
+1/1
+:::
+
 A political science example of a nominal variable would be political party affiliation.
 
 ## Question 3
 
 What is the OLS estimate of $Y = \beta_0 + \epsilon$? (That is, in terms of $Y$, what does the OLS estimate of $\beta_0$ equal?) (2 points)
+
+::: callout-note
+2/2
+:::
 
 The OLS estimate of $Y = \beta_0 + \epsilon$, in terms of $Y$ is $\beta_0$ is the intercept and the sample mean of the DV $Y$.
 
@@ -94,6 +118,10 @@ $N = 1,200$ from a random sample of 18 and older Canadians.
 
 Calculate the t-statistic for `Education`. (1 point)
 
+::: callout-note
+1/1
+:::
+
 -2 / 0.2
 
 Based on the math above, the t-statistic for `Education` is -10.
@@ -102,11 +130,23 @@ Based on the math above, the t-statistic for `Education` is -10.
 
 Interpret the results for the `Education` variable, i.e. BRIEFLY discuss the substantive meaning of the results (1 sentence), substantive significance (no more than 2 sentences), and statistical significance (1 sentence). (5 points)
 
+::: callout-note
+3/5
+
+Your substantive significance is not fleshed out.
+:::
+
 The substantive meaning of the results show a negative coefficient for the `Education` variable, we can conclude that with each year of education there is a decrease in 2 points in the feeling thermometer for George W. Bush on average holding all else constant. The substantive significance suggests individuals with higher levels of education have lower feelings towards George W. Bush, showing a relationship between education and attitudes towards George W. Bush. Finally, the statistical significance of the relationship is seen with the p-value of 0. This means we can conclude there is a statistically significant relationship between years of education and feelings towards George W. Bush.
 
 ### Part C
 
 In this context, is the coefficient on the constant term useful on its own? Why or why not (1 sentence) (5 points)
+
+::: callout-note
+3/5
+
+Correct: it provides an estimated value for the dependent variable when all independent variables are equal to zero. However, both age and ideology cannot take on values of zero.
+:::
 
 Yes, in this context, the coefficient on the constant term can be useful on its own. This is because it provides an estimated value for the dependent variable when all independent variables are equal to zero.
 
@@ -114,16 +154,30 @@ Yes, in this context, the coefficient on the constant term can be useful on its 
 
 Is the coefficient on `U.S. TV access` statistically significant at the 5% error level? (1 point)
 
+::: callout-note
+1/1
+:::
+
 Yes, `U.S. TV access` is statistically significant at the 5% error level because its p-value is less than 0.05.
 
 ### Part E
 
 Is the coefficient on `U.S. TV access` statistically significant at the 1% error level? (1 point)
 
+::: callout-note
+1/1
+:::
+
 No, `U.S. TV access` is not statistically significant at the 1% error level because its p-value is greater than 0.01.
 
 ### Part F
 
 Based on the results in *Table 2*, might the negative coefficient on `U.S. TV Access` be the result of more educated people being more likely to have access to U.S. TV? In no more than 1 sentence, explain your answer. (3 points)
+
+::: callout-note
+0/3
+
+Because both variables are included in our model, we account for their effect on each other.
+:::
 
 Yes, based on the results in Table 2 the negative coefficient on `U.S TV Access` could be the result of more educated people being more likely to have access to U.S. TV. The two variables could be confounding, implying that educated individuals may be likely to have less access to TV, thus confounding the results of US TV Access.
