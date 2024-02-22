@@ -27,6 +27,10 @@ Imagine you hypothesize that the probability of voting for the incumbent in a tw
 
 What is the probability of voting for the incumbent? (1 point)
 
+::: callout-note
+1/1
+:::
+
 550/1165 = 0.472103
 
 Based on the math above, the probability of voting for the incumbent is 0.472103 or 47.21 percent.
@@ -34,6 +38,12 @@ Based on the math above, the probability of voting for the incumbent is 0.472103
 ### Part B
 
 What is the probability of being older than 65 **or** voting for the incumbent? Write the general (i.e. using symbols) formula you used to obtain your answer and show all of your work. (2 points)
+
+::: callout-note
+1/2
+
+Needed to include the general formula as well.
+:::
 
 (((310/1165) + (550/1165)) - (150/1165)) = 0.6094421
 
@@ -43,11 +53,19 @@ Based on the math above, the probability of being older than 65 **or** voting fo
 
 In terms of the substantive results (ignore statistical significance), does the evidence support your hypothesis? Explain, using details, how you know and consider whether, in terms of direction, the results fully support the hypothesis, partially support it, or do not support it at all (no more than 2 sentences). (5 points)
 
+::: callout-note
+5/5
+:::
+
 Based on the table above, the data partially supports my hypothesis. This is because the probability of supporting the incumbent decreases from the age groups 18-29 (54.34%) to 30-65 (37.97%), however it increases from the age groups 30-65 (37.97%) to older than 65 (48.38%). Thus our hypothesis is partially supported because support for the incumbent decreases from one age group to another and increases from one age group to another.
 
 ### Part D
 
 Imagine that the values in the **Total** column for each age group in Table 1 remained the same, but the percentage voting for the incumbent in each age group was 38% (i.e. 38% of each age group voted for the incumbent). Now imagine that you were going to construct 90% confidence intervals, using the z table, for the percentage voting for the incumbent for each age group (don't actually do this).  List the age groups in order starting with the one that would have the widest confidence interval to the one that would have the narrowest confidence interval, noting any ties. (3 points)
+
+::: callout-note
+3/3
+:::
 
 The age groups in order starting with the one that would have the widest confidence interval to the narrowest would be: Older than 65, 30 to 65, 18 to 29. This is because the larger the sample size the more narrow the confidence interval.
 
@@ -55,11 +73,19 @@ The age groups in order starting with the one that would have the widest confide
 
 Provide a political science example of an ordered variable that is not listed on the slides. (1 point)
 
+::: callout-note
+1/1
+:::
+
 A political science example of an ordered variable is education levels (Less than HS, HS, College, Graduate degree).
 
 ## Question 3
 
 Provide a political science example of a continuous variable that is not listed on the slides. (1 point)
+
+::: callout-note
+1/1
+:::
 
 A political science example of a continuous variable is voter turnout percentage (ranging from 0 percent to 100 percent).
 
@@ -84,17 +110,37 @@ N = 1,200 from a random sample of Canadians who are 18 years or older.
 
 Interpret the results for the `U.S. TV Access` variable by **BRIEFLY** discussing the substantive meaning of the results (1 sentence) and statistical significance (1 sentence). (4 points)
 
+::: callout-note
+3/4
+:::
+
 The results for `U.S. TV Access` shows that there is a statistically significant relationship, likely not happening by chance. The negative coefficient of -15 shows that Canadians who have access to U.S TV's rate George W. Bush lower on the feeling thermometer compared to those who do not have U.S TV access.
+
+::: callout-note
+... on average.
+:::
 
 ### Part B
 
 In this context, is the coefficient on the constant term useful on its own? Why or why not (1 sentence)? (5 points)
 
+::: callout-note
+0/5
+:::
+
 The coefficient on the constant term is not useful on its own in this context because when the independent variable of Canadians who do not have access to TV is equal to zero, thus not presenting any predictive information into the model as well as the other independent variable of age not be able to equal zero.
+
+::: callout-note
+The coefficient on the constant term is useful on its own. It shows the average predicted feeling of Canadians without access to US TV. There is no age variable in this model.
+:::
 
 **Part C**
 
 From the information provided, can you determine the mean thermometer rating for George W. Bush for 18 and older Canadians with U.S. TV Access and for those without U.S. TV Access? If you can determine those values, what are they, respectively? (3 points)
+
+::: callout-note
+3/3
+:::
 
 55 + (-15) = 40
 
@@ -106,7 +152,15 @@ The mean thermometer rating for George W. Bush for 18 and older Canadians with U
 
 Based on the results in Table 2, might the negative coefficient on `U.S. TV Access` be the result of younger people being more likely to have access to U.S. TV? In no more than 1 sentence, explain your answer. (3 points)
 
+::: callout-note
+1/3
+:::
+
 The negative coefficient on `U.S. TV Access` is unlikely to be the result of younger people being more likely to have access to U.S. TV, this is because age is an independent variable in the model and their is likely a control for confounding variables or effected related to age and U.S TV access.
+
+::: callout-note
+Age is not controlled for in this model. It is plausible that age plays a role in shaping individuals' views of GWB.
+:::
 
 ## Question 5
 
@@ -124,13 +178,31 @@ Use the same background information as in Q4, but now imagine you got the result
 
 Interpret the results for the `U.S. TV Access` variable by **BRIEFLY** discussing the substantive meaning of the results (1 sentence) and statistical significance (1 sentence). (4 points)
 
-The negative coefficient of -7 for the `U.S. TV Access` variable shows us that Canadians with access to US TV rate George W. Bush lower on the feeling thermometer. The p-value of 0.0804 shows us that at the 95 percent confidence level there is not a statistically significant relationship present, however one is present at the 90 percent level.
+::: callout-note
+3/4
+:::
+
+The negative coefficient of -7 for the `U.S. TV Access` variable shows us that Canadians with access to US TV rate George W. Bush lower on the feeling thermometer.
+
+::: callout-note
+... on average and holding age constant.
+:::
+
+The p-value of 0.0804 shows us that at the 95 percent confidence level there is not a statistically significant relationship present, however one is present at the 90 percent level.
 
 ### Part B
 
 In this context, is the coefficient on the constant term useful on its own? Why or why not (1 sentence)? (5 points)
 
+::: callout-note
+4/5
+:::
+
 The coefficient on the constant term in this context is not use on its own, this is because when the independent variable of Canadians who do not have access to TV is equal to zero, thus not presenting any predictive information into the model as well as the other independent variable of age not be able to equal zero.
+
+::: callout-note
+I'm not sure what you mean by "not presenting any predictive information into the model". `US TV Access` can meaningfully be equal to zero.
+:::
 
 ## Question 6
 
@@ -140,13 +212,25 @@ Identify a published article in an area that interests you that uses quantitativ
 
 Provide the full citation of the article (hint: you can use one of the ready-made options on Google Scholar). (1 point)
 
+::: callout-note
+1/1
+:::
+
 Costa, Mia. (2021). Ideology, Not Affect: What Americans Want From Political Representation. American Journal of Political Science, 65(2), 342-358.
 
 ### Part B
 
 State the hypothesis of interest (if there are several, just pick one) and the method used to evaluate it (e.g., crosstab, OLS, probit etc.). (2 points, if you list more than one hypothesis additional points will be taken off)
 
+::: callout-note
+1/2
+:::
+
 The hypothesis put forward in this article is: How do citizens weigh the relative value of ideology and policy congruence, constituency service, and group-centered partisan rhetoric?
+
+::: callout-note
+This is a question, not a hypothesis.
+:::
 
 The method used to evaluate is an average marginal component effects (ACME).
 
@@ -154,14 +238,26 @@ The method used to evaluate is an average marginal component effects (ACME).
 
 Report the **substantive** result in no more than two sentences (i.e., the interpretation of the main coefficient, or the effect value/size, do not mention statistical significance). (3 points)
 
+::: callout-note
+3/3
+:::
+
 Respondents demonstrate a substantial preference for legislators who prioritize policy issues, with an 11-point increase in approval when a legislator lists an issue as their third most important and a 12.8-point increase when the legislator's top issue aligns with the respondent's, compared to no policy information being provided.
 
 ### Part D
 
 Does the article provide any discussion of substantive significance? **To ensure that no points are deducted a good faith effort is needed. That is, as long as there is evidence of an answer that shows engagement with this (including discussion with another member of the class) you won't lose points. Engagement plus successful answers can gain up to 5 points.**
 
+::: callout-note
+3/5
+:::
+
 **If yes**, provide a quote of what they say and then - in no more than two sentences - evaluate the logic the author(s) used. Note that it is most likely that you will NOT find an article that actually does this and if they do so, they likely do so poorly -- i.e. they most likely just assert something but do not provide the logic; in those cases you should say they do not do well. Leave this section blank if they do not discuss substantive significance and answer under the "If no" section. Run your answer by at least one other person from class and adjust as needed. List the person(s) you spoke to.
 
 **If no**, state whether you think the result is substantively significant or not and in no more than two sentences explain why. Do not assume because it is published that the result is substantively significant. Run your answer by at least one other person from class and adjust as needed. If the author(s) discuss substantive significance leave this section blank and answer under the "If yes" section. List the person(s) you spoke to.
 
 I spoke to Yuri, Jessica, and Isabelle about my answer. The text does not provide explicit information on substantive significance, but based on the content, the results seem substantively significant. The findings reveal that individuals prioritize policy congruence over partisan affect in evaluating legislators, shedding light on the nuanced preferences of constituents.
+
+::: callout-note
+This is restating the substantial meaning, not significance. Is this effect small or large? Why?
+:::
