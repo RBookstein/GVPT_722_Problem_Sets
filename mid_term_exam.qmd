@@ -154,6 +154,8 @@ The substantive meaning of the coefficient on the education variable shows us th
 Use the specific units where possible.
 :::
 
+The substantive meaning of the coefficient on the education variable shows us that on average a one-unit increase in education is associated with an 20-unit increase feelings towards the European Parliment , holding all else constant.
+
 ### Part F
 
 Based on the results in **Table 2**, might the negative coefficient on `Female` be the result of females having less access to education? In no more than 1 sentence, explain your answer. (3 points)
