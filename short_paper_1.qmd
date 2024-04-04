@@ -1,0 +1,21 @@
+---
+title: "Short Paper One"
+Author: "Ryan Bookstein"
+subtitle: "Short Paper One"
+format: 
+  pdf:
+    linestretch: 2
+    fontsize: "12pt"
+    margin-bottom: "1in"
+    margin-top: "1in"
+    margin-left: "1in"
+    margin-right: "1in"
+editor: visual
+execute: 
+  message: false
+  warning: false
+---
+
+The hypothesis for this paper is as stated; on average, the closing date will have a negative relationship with voter turnout, the percentage of high school graduates will have a positive relationship with voter turnout, and states located in the south with have lower voter turnout states, controlling for all other factors.
+
+
