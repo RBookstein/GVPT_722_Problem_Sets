@@ -1,0 +1,33 @@
+Short Paper One Revisions
+
+Ryan Bookstein
+
+Reviewer 1 noted I needed to avoid speaking in technical/abstract terms. I have updated where this issue was present. The text now reads: “The hypothesis for this paper is as stated; on average a states closing date for voter registration will result in a decrease in voter turnout, an increase in the percentage of a states high school graduation rate will result in an increase in voter turnout, and states located in the South will have lower voter turnout compared to non-Southern states, holding all else constant.”
+
+Reviewer 2 noted that my tables and figures lacked substantive titles. I have now updated that: 
+
+-Table 1 is now “Table 1. Regression of Percentage of High School Grads on Voter Turnout”
+-Table 2 reads “Table 2. Regression of Closing Date for Voter Registration on Voter Turnout”
+-Table 3 now reads “Table 3. Regression of Southern States on Voter Turnout”
+
+The scatter plots now read:
+-“Figure 1. Effect of Closing Registration Date on Voter Turnout”
+-“Figure 2. Effect of Percentage of HS Graduation Rate on Voter Turnout”
+
+Finally, the boxplot now reads: 
+-“Figure 3. Effect of Southern States on Voter Turnout”
+
+Reviewer 1 noted I did not clearly define what I was regressing in Table 1. I have updated this, the new text follows: “The preliminary findings from my bivariate regression analysis of the relationship between states’ voter turnout and high school graduation rates, outlined in Table 1, indicate that on average voter turnout tends to increase with high school graduation rates.”
+
+Reviewers 1 and 2 noted I should not use “one-unit” when describing my variables. I have updated that for each instance, the new text follows: “Specifically, on average a one percentage point increase in a state's high school graduation rate…” and “on average, a one-day increase in the closing date for registration…”. 
+
+Reviewer 2 noted I do not need to subname a figure when referring to Table 2. I have updated this, the text now reads: “The scatter plot seen in Figure 2 shows the negative relationship…”
+
+Reviewer 2 noted I needed to address the various components of the boxplot. I have now updated this, the text now reads: “Figure 3 shows us that the mean voter turnout for non-Southern states is around 68 percent, while for Southern states it is around 62 percent. The minimum voter turnout for non-Southern states is observed around 52 percent and maximum voter turnout is around 83 percent. For Southern states, the minimum voter turnout is observed around 49 percent and maximum voter turnout around 74 percent. For non-Southern states the lower quartile of voter turnout ranges from 52 to 65 percent and the upper quartile of voter turnout ranges from 73 to 83 percent. For Southern states the lower quartile is observed from 49 to 63 percent and the upper quartile is observed from 65 to 74 percent. 
+
+Reviewer 2 noted I did not address the high school graduation rate variable in a sentence. I have now updated this, the text now reads: “The multivariate regression model examines the impact of three variables on voter turnout: the closing date of registration (close), Southern state status (south), and percentage of high school graduation (pcthsg).”
+
+Reviewer 1 noted that I needed to add “holding all else constant” to a few sentences. I have updated this, the new text follows: “on average, holding all else constant, a one percentage point increase in high school graduates…” and “on average, holding all else constant, Southern states will have lower turnout…”
+
+Reviewers 1 and 2 noted that I did not address substantive significance in my concluding section. I have now updated this, the text now reads: This study suggests that voter turnout is influenced by factors such as registration closing dates and geographical location, particularly in southern states. These findings hold significant implications for policymakers, indicating the potential impact of early registration deadlines and regional disparities on electoral participation. We may see an increase in electoral participation if elected officials engage with legislation extending the registration date for voters.  Findings regarding turnout in Southern states have implications for presidential candidates, as they may not focus their attention in states with low turnout. Voting mobilization organizations may also target southern states based on this data with efforts to increase the turnout. While the effect of high school graduation rates on voter turnout may not be statistically significant, the relationship remains noteworthy, emphasizing the importance for political campaigns to engage with educated individuals. Additionally, the lower voter turnout observed in southern states highlights the need for targeted interventions to address regional disparities. It's essential to consider the scale of these findings; even small decreases in voter turnout percentages could accumulate across a large population, potentially influencing election outcomes.
+
