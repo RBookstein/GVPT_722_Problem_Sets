@@ -1,0 +1,74 @@
+---
+title: "Short Paper Two (Revision)"
+subtitle: "Due on May 13, 2024 by 5pm"
+format: 
+  pdf:
+    linestretch: 2
+    fontsize: "12pt"
+    margin-bottom: "1in"
+    margin-top: "1in"
+    margin-left: "1in"
+    margin-right: "1in"
+editor: visual
+execute: 
+  message: false
+  warning: false
+---
+
+Imagine that Dr. Doofenshmirtz used the Interaction-paper-inator on the class, resulting in weird results for *Short Paper 2*. The editor of the journal, Mr. Feeney, understands that something out of the ordinary happened and as an initial step wants to make sure you understand some key concepts.
+
+Use the U.S. Census data from the Current Population Survey Voter Supplement Files from 1972-2000 (excluding 1976) aggregated to the state level to answer the following questions. The data file is on the course ELMS site and is named `aggcpsgvpt722.dta`.
+
+First, run the following model (you do not need to report the results):
+
+$$
+vote = \beta_0+ \beta_1pcthsg + \beta_2south + \beta_3pcthsg*south + \beta_4close  
+$$
+
+```{r}
+library(tidyverse)
+library(haven)
+
+data <- read_dta("aggcpsgvpt722.dta")
+
+model <- lm(vote ~ pcthsg + south + pcthsg:south + close, data = data)
+model
+```
+
+1)  Write an equation using the estimated coefficient results to show the effect of high school graduation rates on turnout (2 points)
+
+    $$
+    vote = \beta_2 + \beta_3*south
+    $$
+
+    $$
+    vote = -22.204 + 0.234 * south
+    $$
+
+2)  Write an equation using the estimated coefficient results to show the effect of south on turnout (2 points).
+
+    $$
+    vote = \beta_1 + \beta_3 * pcthsg
+    $$
+
+    $$
+    vote = 0.015 + 0.234 * pcthsg
+    $$
+
+3)  Can $\beta_2$ be interpreted on its own? If so, what is it? If not, why not? Answer in no more than 1 sentence. (2 points).
+
+    Yes, $\beta_2$ can be interpreted on its own because it shows the effect of high school graduation rates on the non-south variable, when south equals zero.
+
+4)  Is the effect of high school graduation rates on turnout statistically significant? How do you know (answer in no more than 1 sentence and report the relevant test statistics) (2 points)
+
+    Yes, the effect of high school graduation rates on voter turnout is statistically significant. We know this because of the F-statistic of 7.0388 with a p-value of 0.001006 in Table 2, which rejects the null hypothesis and confirms a significant effect of both high school graduation rates and/or their interaction with voter turnout in a Southern state.
+
+5)  Is the effect of high school graduation rates on turnout substantively significant in the south? What about the non-south? Answer in no more than 4 sentences total? (5 points)
+
+    $$
+    vote = \beta_0+ \beta_1pcthsg + (-22.204)south + \beta_3pcthsg*south + \beta_4close 
+    $$
+
+    The effect of high school graduation rates on turnout in the south is substantively significant because the coefficient (22.204) is a large enough effect to sway the results on an election.
+
+    The effect of high school graduation rates on voter turnout in non-southern states is not substantively significant because the coefficient (0.015) is too small to have an impact on the outcome of an election.
