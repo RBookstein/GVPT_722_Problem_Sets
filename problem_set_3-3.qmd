@@ -69,7 +69,6 @@ ggplot(census_data, aes(x = pcthsg)) +
 
 Using descriptive statistics only, what is the mean turnout rate in southern states? (1 point)
 
-
 ::: callout-note
 1/1
 :::
@@ -127,7 +126,6 @@ print(t_test_result)
 
 The t-test results show a statistically significant difference in mean turnout rates between southern and non-southern states (p-value \< 2.2e-16). The negative t-value (-9.7728) suggests that, on average, the turnout rate is lower in southern states compared to non-southern states. The 95% confidence interval for the difference in means (-8.55 to -5.67) does not include zero, further supporting the conclusion of a significant difference.
 
-
 ## Question 5
 
 Run a regression with `vote` as the dependent variable and `south` as the independent variable. Is it meaningful to interpret the constant term on its own? If so, what information does it provide? Answer in one sentence. (2 points)
@@ -146,7 +144,6 @@ Yes, it is meaningful to interpret the constant term on its own, as it represent
 ## Question 6
 
 Using the regression you just ran, in no more than one sentence interpret the **substantive meaning** of the coefficient on the `south` variable. (2 points)
-
 
 ::: callout-note
 2/2
